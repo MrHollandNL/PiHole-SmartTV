@@ -1,0 +1,22 @@
+# LG Block All
+# HTTP Ninja Smart TV DNS observations
+# Scope: LG Electronics + Alphonso / LG Ad Solutions
+# Mode: Root domains + all subdomains (regex)
+#
+# Only domains directly attributable to LG or Alphonso are included.
+# Third-party services, streaming providers, CDNs and infrastructure are excluded.
+
+(^|\.)adstk\.io$
+(^|\.)alphonso\.tv$
+(^|\.)lge\.com$
+(^|\.)lgeapi\.com$
+(^|\.)lggalleryplus\.com$
+(^|\.)lgsmartad\.com$
+(^|\.)lgsmartplatform\.com$
+(^|\.)lgthinq\.com$
+(^|\.)lgtvcommon\.com$
+(^|\.)lgtviot\.com$
+(^|\.)lgtvsdp\.com$
+(^|\.)lgwebostv\.com$
+(^|\.)nextlgsdp\.com$
+(^|\.)wiselg\.com$
