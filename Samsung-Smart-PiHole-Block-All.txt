@@ -1,0 +1,21 @@
+# Samsung Block All
+# HTTP Ninja Smart TV DNS observations
+# Scope: Samsung Electronics + Samsung-owned services/subsidiaries
+# Mode: Root domains + all subdomains (regex)
+#
+# Only domains directly attributable to Samsung are included.
+# Third-party streaming services, CDNs and infrastructure are excluded.
+
+(^|\.)adgrx\.com$
+(^|\.)aibixby\.com$
+(^|\.)samsungads\.com$
+(^|\.)samsungcloud\.com$
+(^|\.)samsungcloud\.tv$
+(^|\.)samsungcloudcdn\.com$
+(^|\.)samsungcloudsolution\.com$
+(^|\.)samsungcloudsolution\.net$
+(^|\.)samsungelectronics\.com$
+(^|\.)samsungiotcloud\.com$
+(^|\.)samsungosp\.com$
+(^|\.)samsungotn\.net$
+(^|\.)samsungqbe\.com$
