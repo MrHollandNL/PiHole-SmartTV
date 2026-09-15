@@ -1,0 +1,29 @@
+# LG Telemetry & Ads
+# HTTP Ninja Smart TV privacy blocklist
+# Scope: LG telemetry, ACR and advertising
+# Mode: Pi-hole regex
+#
+# Includes wildcard-style blocking for LG Ads / Alphonso infrastructure.
+# OS and app update infrastructure is intentionally excluded.
+#
+# WARNING:
+# Blocking may affect recommendations, personalised content,
+# LG advertising, ACR and related Smart TV functionality.
+
+# LG Smart Ads
+(^|\.)lgsmartad\.com$
+
+# LG advertising endpoints on lgtvcommon.com
+(^|\.)ads\.lgtvcommon\.com$
+(^|\.)videoads\.lgtvcommon\.com$
+
+# LG telemetry / CDP beacon endpoints
+(^|\.)cdpbeacon\.lgtvcommon\.com$
+(^|\.)cdpbeacon2\.lgtvcommon\.com$
+
+# Alphonso / LG Ad Solutions
+# Includes ACR, provisioning and supporting advertising infrastructure
+(^|\.)alphonso\.tv$
+
+# Alphonso / advertising pixel infrastructure
+(^|\.)adstk\.io$
