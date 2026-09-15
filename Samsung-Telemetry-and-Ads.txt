@@ -1,0 +1,22 @@
+# Samsung Telemetry & Ads
+# HTTP Ninja Smart TV privacy blocklist
+# Scope: Samsung telemetry, ACR and advertising
+# Mode: Pi-hole regex
+#
+# OS/app update infrastructure is intentionally excluded.
+#
+# WARNING:
+# Blocking may affect advertisements, recommendations,
+# viewing-information services and related Smart TV functionality.
+
+# Samsung Ads
+(^|\.)samsungads\.com$
+
+# Samsung Ads / AdGear advertising infrastructure
+(^|\.)adgrx\.com$
+
+# Samsung Quality-of-Experience telemetry
+(^|\.)qoe\.samsungcloud\.tv$
+
+# Samsung ACR endpoints under samsungcloud.tv
+(^|\.)acr-[^.]+\.samsungcloud\.tv$
