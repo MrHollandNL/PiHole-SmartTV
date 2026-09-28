@@ -1,0 +1,28 @@
+# LG Telemetry & Ads
+# HTTP Ninja Smart TV privacy blocklist
+# Scope: LG telemetry, ACR and advertising
+# Format: Pi-hole ABP-style domain blocking
+#
+# Blocks the listed domains and all subdomains.
+# OS/app update infrastructure is intentionally excluded.
+#
+# WARNING:
+# Blocking may affect recommendations, personalised content,
+# LG advertising, ACR and related Smart TV functionality.
+
+# LG Smart Ads
+||lgsmartad.com^
+
+# LG advertising endpoints
+||ads.lgtvcommon.com^
+||videoads.lgtvcommon.com^
+
+# LG telemetry / CDP beacon endpoints
+||cdpbeacon.lgtvcommon.com^
+||cdpbeacon2.lgtvcommon.com^
+
+# Alphonso / LG Ad Solutions
+||alphonso.tv^
+
+# Alphonso advertising infrastructure
+||adstk.io^
