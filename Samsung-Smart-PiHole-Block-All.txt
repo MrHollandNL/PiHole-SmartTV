@@ -1,0 +1,27 @@
+# Samsung Block All
+# HTTP Ninja Smart TV privacy blocklist
+# Scope: Samsung Electronics + Samsung-owned services/subsidiaries
+# Format: Pi-hole ABP-style domain blocking
+#
+# Blocks the listed root domains and all subdomains.
+# Third-party streaming services, CDNs and unrelated infrastructure are excluded.
+#
+# WARNING:
+# This is an aggressive manufacturer blocklist.
+# Blocking these domains may affect Samsung updates, apps, account services,
+# SmartThings/Bixby functionality, recommendations, advertising
+# and other Smart TV functionality.
+
+||adgrx.com^
+||aibixby.com^
+||samsungads.com^
+||samsungcloud.com^
+||samsungcloud.tv^
+||samsungcloudcdn.com^
+||samsungcloudsolution.com^
+||samsungcloudsolution.net^
+||samsungelectronics.com^
+||samsungiotcloud.com^
+||samsungosp.com^
+||samsungotn.net^
+||samsungqbe.com^
