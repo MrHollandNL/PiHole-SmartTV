@@ -1,0 +1,27 @@
+# LG Block All
+# HTTP Ninja Smart TV privacy blocklist
+# Scope: LG Electronics + Alphonso / LG Ad Solutions
+# Format: Pi-hole ABP-style domain blocking
+#
+# Blocks the listed root domains and all subdomains.
+# Third-party services, streaming providers, CDNs and unrelated infrastructure are excluded.
+#
+# WARNING:
+# This is an aggressive manufacturer blocklist.
+# Blocking these domains may affect LG updates, apps, account services,
+# recommendations, advertising, ACR and other Smart TV functionality.
+
+||adstk.io^
+||alphonso.tv^
+||lge.com^
+||lgeapi.com^
+||lggalleryplus.com^
+||lgsmartad.com^
+||lgsmartplatform.com^
+||lgthinq.com^
+||lgtvcommon.com^
+||lgtviot.com^
+||lgtvsdp.com^
+||lgwebostv.com^
+||nextlgsdp.com^
+||wiselg.com^
